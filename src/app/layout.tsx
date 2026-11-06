@@ -27,7 +27,13 @@ export const metadata: Metadata = {
   },
   description: SITE_CONFIG.description,
   icons: {
-    icon: SITE_CONFIG.logo.src,
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/images/brand/alpha-official-logo.png", type: "image/png" },
+      { url: "/images/brand/alpha-official-logo.jpg", type: "image/jpeg" },
+    ],
+    apple: "/images/brand/alpha-official-logo.png",
+    shortcut: "/favicon.ico",
   },
 };
 

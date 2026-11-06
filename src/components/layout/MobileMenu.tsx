@@ -146,7 +146,29 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           <Button href="/contact" variant="primary" className="w-full justify-center">
             Contact Salon
           </Button>
-          <div className="mt-4 text-center">
+          
+          {/* Social Links */}
+          <div className="mt-4 flex items-center justify-center gap-4 text-xs font-semibold text-[var(--color-brand-primary)]">
+            <a
+              href="https://www.instagram.com/alpha_unisex_salon_chromepet/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Instagram ↗
+            </a>
+            <span className="text-[var(--color-text-muted)]">•</span>
+            <a
+              href="https://www.facebook.com/profile.php?id=61596000632845"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Facebook ↗
+            </a>
+          </div>
+
+          <div className="mt-3 text-center">
             <p className="text-xs text-[var(--color-text-muted)]">
               Personalized Hair, Beauty & Grooming
             </p>

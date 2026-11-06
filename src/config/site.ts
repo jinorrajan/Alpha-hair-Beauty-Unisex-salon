@@ -18,6 +18,10 @@ export const SITE_CONFIG = {
     address: "No. 70, Nemilichery High Road, Subash Nagar, Bharathipuram, Chromepet, Chennai, Tamil Nadu 600044",
     mainBranch: "Chromepet, Chennai",
   },
+  social: {
+    instagram: "https://www.instagram.com/alpha_unisex_salon_chromepet/?hl=en",
+    facebook: "https://www.facebook.com/profile.php?id=61596000632845",
+  },
   logo: {
     src: "/images/brand/alpha-official-logo.jpg",
     alt: "Alpha Hair & Beauty Unisex Salon Logo",

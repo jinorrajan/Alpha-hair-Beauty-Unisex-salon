@@ -197,7 +197,7 @@ export const Footer: React.FC = () => {
                 Follow Us:
               </span>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/alpha_unisex_salon_chromepet/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#D4C4B5] hover:text-[#C5A880] transition-colors inline-flex items-center gap-1 font-medium"
@@ -206,7 +206,7 @@ export const Footer: React.FC = () => {
               </a>
               <span className="text-white/20">•</span>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61596000632845"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#D4C4B5] hover:text-[#C5A880] transition-colors inline-flex items-center gap-1 font-medium"
